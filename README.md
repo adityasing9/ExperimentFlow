@@ -133,34 +133,34 @@ The workstation interface follows a high-density, analytical 3-column architectu
 ```mermaid
 flowchart TD
     subgraph UI ["Computational Laboratory Frontend (React + Vite + Tailwind)"]
-        LP[Research Landing Page]
-        DL[Dataset Lab & Statistical Profiler]
-        ES[Experiment Studio & Step Monitor]
-        TL[Interactive Timeline DAG]
-        OL[Optimization Landscape & Convergence Chart]
-        MC[Model Comparison Leaderboard]
-        RV[Academic Report Synthesizer]
+        LP["Research Landing Page"]
+        DL["Dataset Lab & Statistical Profiler"]
+        ES["Experiment Studio & Step Monitor"]
+        TL["Interactive Timeline DAG"]
+        OL["Optimization Landscape & Convergence Chart"]
+        MC["Model Comparison Leaderboard"]
+        RV["Academic Report Synthesizer"]
     end
 
     subgraph API ["Backend API Layer (FastAPI)"]
-        R_DATA[/api/datasets]
-        R_EXP[/api/experiments]
-        R_OPT[/api/optimization]
-        R_MOD[/api/models]
-        R_REP[/api/reports]
-        R_HEALTH[/health]
+        R_DATA["/api/datasets"]
+        R_EXP["/api/experiments"]
+        R_OPT["/api/optimization"]
+        R_MOD["/api/models"]
+        R_REP["/api/reports"]
+        R_HEALTH["/health"]
     end
 
     subgraph Core ["Autonomous ML & AI Core"]
-        PREP[Leak-Free Preprocessor\n(Stratified Split, Train-only Fit)]
-        MODELS[Model Registry\n(Sklearn + XGBoost)]
-        AI_ENGINE[LocalAIProvider\n(Schema-Validated Sensitivity Engine)]
-        OPT_SVC[Optimization Loop Coordinator\n(AI-Guided vs Random Search)]
+        PREP["Leak-Free Preprocessor<br/>(Stratified Split, Train-only Fit)"]
+        MODELS["Model Registry<br/>(Sklearn + XGBoost)"]
+        AI_ENGINE["LocalAIProvider<br/>(Schema-Validated Sensitivity Engine)"]
+        OPT_SVC["Optimization Loop Coordinator<br/>(AI-Guided vs Random Search)"]
     end
 
     subgraph Persistence ["Dual Persistence Layer"]
-        DB[(MySQL Primary / SQLite Auto-Fallback)]
-        FS[Local Dataset Storage]
+        DB[("MySQL Primary / SQLite Auto-Fallback")]
+        FS["Local Dataset Storage"]
     end
 
     UI <-->|REST & Polling| API
