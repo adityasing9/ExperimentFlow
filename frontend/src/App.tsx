@@ -43,6 +43,7 @@ export const App: React.FC = () => {
   useEffect(() => {
     refreshHealth();
     loadInitialDatasets();
+    handleLoadDemo();
   }, []);
 
   // Demo loader (Section 51)
