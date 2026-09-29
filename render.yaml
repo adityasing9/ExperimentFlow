@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: experimentflow-backend
+    env: python
+    region: oregon
+    plan: free
+    branch: main
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.11
+      - key: PORT
+        value: 8000
+      - key: DB_ENGINE
+        value: sqlite
+      - key: SQLITE_PATH
+        value: experimentflow.db
+      - key: CORS_ORIGINS
+        value: "https://experimentflow.vercel.app,http://localhost:5173,http://localhost:3000"
