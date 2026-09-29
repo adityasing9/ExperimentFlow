@@ -1,6 +1,6 @@
 # EXPERIMENTFLOW
 ### AI-Powered Machine Learning Experiment Automation & Optimization Platform
-*3-Credit BE AIML Mini-Project · Autonomous Experimentation Engine*
+*Autonomous Machine Learning Experimentation & Optimization Platform*
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-experimentflow.vercel.app-00e5ff?style=for-the-badge&logo=vercel&logoColor=white)](https://experimentflow.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-adityasing9%2FExperimentFlow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adityasing9/ExperimentFlow)
@@ -243,15 +243,15 @@ ExperimentFlow/
 ├── datasets/                # Bundled CSVs (Breast Cancer, California Housing, Titanic, Iris)
 ├── docs/                    # Viva preparation, API reference, architecture deep-dive
 ├── docker-compose.yml       # Production multi-container specification
-├── PROJECT_REPORT.md        # Academic BE AIML mini-project submission report
+├── PROJECT_REPORT.md        # Comprehensive technical report
 └── README.md
 ```
 
 ---
 
-## 🎓 Viva & Presentation Cheatsheet
+## 🎓 Technical & Architecture Cheatsheet
 
-| Examiner Question | Technical Explanation |
+| Topic | Technical Explanation |
 | :--- | :--- |
 | **"How is data leakage prevented?"** | Preprocessing transformers (imputers, scalers, encoders) are fitted strictly on the training partition inside custom scikit-learn pipelines. Test sets are strictly transformed using training statistics. |
 | **"How does the AI search strategy work?"** | After each iteration, the engine computes sensitivity gradients ($\Delta \text{Metric} / \Delta \theta_i$). If increasing a parameter yields positive metric gains, it exploits that direction with decaying step sizes (Bayesian heuristic), outperforming random sweeps. |
@@ -261,4 +261,4 @@ ExperimentFlow/
 
 ## 📜 License
 
-MIT License. Designed and engineered for academic evaluation in BE Artificial Intelligence & Machine Learning.
+MIT License. Designed and engineered for machine learning experimentation and optimization.

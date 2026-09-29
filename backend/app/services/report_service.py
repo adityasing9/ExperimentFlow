@@ -64,7 +64,7 @@ class ReportService:
         markdown_body = f"""# ExperimentFlow Research Report
 ## Automated Machine Learning Experimentation & Optimization Synthesis
 
-**Project:** ExperimentFlow (3-Credit BE AIML Academic Mini-Project)  
+**Project:** ExperimentFlow (Autonomous ML Research & Optimization Workstation)  
 **Timestamp:** {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}  
 **Run ID:** `{run.id}`
 

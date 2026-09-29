@@ -1,8 +1,6 @@
 # PROJECT REPORT
 # ExperimentFlow: AI-Powered Machine Learning Experiment Automation and Optimization Platform
 
-**Degree:** Bachelor of Engineering (B.E.) in Artificial Intelligence & Machine Learning (AIML)  
-**Academic Course:** 3-Credit AIML Mini-Project  
 **Domain:** Autonomous Machine Learning, Closed-Loop Optimization, Empirical AI Reasoning  
 
 ---

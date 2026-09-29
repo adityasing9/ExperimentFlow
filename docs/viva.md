@@ -1,5 +1,5 @@
 # ExperimentFlow — Comprehensive Viva Voce Preparation Guide
-*Detailed Questions & Defensible Answers for BE AIML Project Evaluation*
+*Detailed Technical Questions & Defensible Answers for Project Evaluation*
 
 ---
 

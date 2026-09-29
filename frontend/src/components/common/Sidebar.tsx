@@ -155,7 +155,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         </button>
 
         <div className="text-[10px] font-mono text-lab-textDim text-center">
-          3-Credit BE AIML Mini-Project
+          Autonomous ML Engine v1.0
         </div>
       </div>
     </aside>

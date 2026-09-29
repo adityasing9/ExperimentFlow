@@ -1,5 +1,5 @@
 # ExperimentFlow — Academic System Architecture Specification
-### BE AIML Mini-Project · Autonomous ML Research & Optimization Workstation
+### Autonomous ML Research & Optimization Workstation
 
 ---
 

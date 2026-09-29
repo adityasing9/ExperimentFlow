@@ -30,7 +30,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onLaunchWorkspace, onL
           </div>
           <div>
             <span className="font-mono text-sm tracking-wider font-semibold text-white">EXPERIMENTFLOW</span>
-            <span className="text-[10px] text-lab-textDim font-mono ml-2 border-l border-lab-border pl-2">BE AIML MINI-PROJECT</span>
+            <span className="text-[10px] text-lab-textDim font-mono ml-2 border-l border-lab-border pl-2">AUTONOMOUS ML PLATFORM</span>
           </div>
         </div>
 
@@ -222,7 +222,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onLaunchWorkspace, onL
 
       {/* Footer */}
       <footer className="h-12 border-t border-lab-border px-8 flex items-center justify-between text-xs font-mono text-lab-textDim">
-        <div>ExperimentFlow — 3-Credit BE AIML Academic Mini-Project</div>
+        <div>ExperimentFlow — Autonomous ML Research & Optimization Workstation</div>
         <div className="flex items-center space-x-2">
           <span className="w-1.5 h-1.5 rounded-full bg-lab-emerald" />
           <span>LOCAL ENGINE ONLINE</span>

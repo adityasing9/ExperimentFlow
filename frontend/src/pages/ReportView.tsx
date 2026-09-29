@@ -99,7 +99,7 @@ export const ReportView: React.FC<ReportViewProps> = ({ currentRun }) => {
           {/* Header Block */}
           <div className="border-b border-lab-border pb-6 space-y-2">
             <div className="flex justify-between items-center text-xs font-mono text-lab-textDim">
-              <span>PROJECT: EXPERIMENTFLOW (3-CREDIT BE AIML)</span>
+              <span>PROJECT: EXPERIMENTFLOW (AUTONOMOUS ML SYSTEM)</span>
               <span>TIMESTAMP: {new Date(report.created_at).toLocaleString()}</span>
             </div>
             <h1 className="text-2xl font-mono font-bold text-white tracking-tight">

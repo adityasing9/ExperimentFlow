@@ -95,7 +95,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
               className="w-5 h-5 rounded-full object-cover"
             />
             <span className="text-zinc-200 font-sans text-[11px] font-medium">Aditya Singh</span>
-            <span className="text-[10px] text-zinc-500 hidden lg:inline">Lead AIML</span>
+            <span className="text-[10px] text-zinc-500 hidden lg:inline">Lead ML Engineer</span>
           </div>
 
           <button
